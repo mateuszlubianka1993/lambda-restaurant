@@ -1,0 +1,59 @@
+body{
+    color: white;
+    font-family: ;
+}
+
+/*main-nav START*/
+#main-nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    transition: all 0.4s;
+}
+
+#main-nav.change-color{
+    background-color: rgba(90,241,88,0.6);
+}
+#main-nav.change-color a:hover{
+    color: #000;
+}
+
+#main-nav a{
+    color: white;
+    font-family: ;
+    font-weight: 700;
+}
+
+#main-nav a:hover{
+    color: ;
+}
+
+#main-nav .navbar-brand {
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+/*main-nav STOP*/
+
+/*main-header START*/
+header#main-header{
+    background-image: ;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*section contact STOP*/
+
+
+/*footer START*/
+#footer{
+    
+}
+/*footer STOP*/
+
+
