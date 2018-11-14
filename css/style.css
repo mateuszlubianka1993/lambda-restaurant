@@ -133,6 +133,39 @@ h3 {
     margin-top: 45px;
 }
 /*section INGREDIENTS STOP*/
+/*section MENU START*/
+.menu-section {
+    background-image: url(../img/section-white-bg.png);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #111;
+    font-size: 0.7rem;
+}
+.menu-section .divider {
+    padding-top: 10px;
+}
+.menu-section h4 {
+    color: #ffbf00;
+}
+.menu-span {
+    font-size: 1.2rem;
+    color: #ffbf00;
+}
+.span-items {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffbf00;
+}
+.items, .span-items {
+    padding: 0 112px;
+}
+.lef-menu-span {
+    text-align: left;
+}
+.right-menu-span {
+    text-align: right;
+}
+/*section MENU STOP*/
 
 /*footer START*/
 #footer{
