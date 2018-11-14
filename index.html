@@ -9,10 +9,10 @@
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
 
 <!--google fonts-->
-
+<link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
 
 <!--font awsome-->
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 <!--main style-->
 <link rel="stylesheet" href="css/style.css">
@@ -21,7 +21,7 @@
 <body>
 <!--main-nav START-->
 <nav id="main-nav" class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#main-header">Lambda</a>
+    <a class="navbar-brand" href="#main-header"><h1>Lambda</h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -45,37 +45,82 @@
             <li class="nav-item">
                 <a class="nav-link" href="#reservations">Reservations</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
         </ul>
     </div>
 </nav>
 <!--main-nav STOP-->
 
 <!--main-header START-->
-<header id="main-header">
-        <div class="container header-content" id="header-content">
-            
+<header id="main-header" class="section-background header-section">
+    <div class="container header-content" id="header-content">
+        <h2>the right ingredients</h2>
+        <h2>for the right food</h2>
+        <div class="row header-row">
+            <div class="header-img col-md-12">
+                <img src="img/divider.png" alt="divider">
+            </div>
+            <div class="col-md-6 left-button-div">
+                <button type="button" class="btn btn-dark header-button">BOOK A TABLE</button>
+            </div>
+            <div class="col-md-6 right-button-div">
+                <button type="button" class="btn btn-dark header-button">SEE THE MENU</button>
+            </div>
         </div>
+    </div>
 </header>
 <!--main-header STOP-->
 
 
-<!--section  START-->
-<section id="">
+<!--section ABOUT START-->
+<section id="about" class="section-background about-section">
     <div class="container">
-        
+        <div class="row about-row">
+            <div class="col-sm-6 about-box about-left-box">
+               <h3>Just the right food</h3>
+               <img src="img/divider.png" alt="divider" class="divider">
+               <p class="about-p">If you've been to one of our resteurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist!</p>
+               <p class="about-p">Stop in today and check us out!</p> 
+               <img src="img/about-cook.png" alt="cook" class="cook-img">
+            </div>
+            <div class="col-sm-6 about-box about-right-box">
+                <img src="img/about-dish.jpg" alt="dish">
+            </div>
+        </div>
     </div> 
 </section>
-<!--section  STOP-->
+<!--section ABOUT STOP-->
 
-
-<!--section  START-->
-<section id="">
+<!--section INGREDIENTS START-->
+<section id="ingredients" class="section-background ingredients-section">
     <div class="container">
-        
+        <div class="row ingredients-row">
+            <div class="col-sm-6 ingredients-box ingredients-left-box">
+
+            </div>
+            <div class="col-sm-6 ingredients-box ingredients-right-box">
+                <h3>Fine ingredients</h3>
+                <img src="img/divider.png" alt="divider" class="divider">
+                <p class="">If you've been to one of our resteurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist!</p>
+                <p class="">Stop in today and check us out!</p>
+                <div class="ing-sm-boxes row">
+                    <div class="sm-boxes-img col-md-4"><img src="img/ingredients-img1.png" alt="food"></div>
+                    <div class="sm-boxes-img col-md-4"><img src="img/ingredients-img2.png" alt="food"></div>
+                    <div class="sm-boxes-img col-md-4"><img src="img/ingredients-img3.png" alt="food"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
-
-<!--section  STOP-->
+<!--section INGREDIENTS STOP-->
 
 
 

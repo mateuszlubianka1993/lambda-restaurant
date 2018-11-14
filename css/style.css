@@ -1,8 +1,18 @@
 body{
     color: white;
-    font-family: ;
+    font-family: 'Yeseva One', cursive;
 }
-
+.section-background {
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+h3 {
+   font-size: 2rem; 
+}
+.divider {
+    padding: 25px 0;
+}
 /*main-nav START*/
 #main-nav{
     position: fixed;
@@ -24,6 +34,12 @@ body{
     color: white;
     font-family: ;
     font-weight: 700;
+    font-size: 1.1rem;
+    padding-right: 40px;
+}
+#main-nav a i {
+    color: #ffbf00;
+    font-size: 0.9rem;
 }
 
 #main-nav a:hover{
@@ -31,24 +47,92 @@ body{
 }
 
 #main-nav .navbar-brand {
-    font-weight: 400;
-    font-size: 1.5rem;
-    font-style: italic;
+    font-weight: 600;
+    font-size: 2.5rem;
     text-transform: uppercase;
+    color: #000;
+    padding-left: 100px;
 }
+
 /*main-nav STOP*/
 
 /*main-header START*/
-header#main-header{
-    background-image: ;
+.header-section {
+    background-image: url(../img/header-background.jpg);
     height: 100vh;
-    background-size: cover;
-    position: relative;
 }
 
+.header-content {
+    position: absolute;
+    top: 30%;
+/*    transform: translateY(-50%);*/
+    left: 50%;
+    transform: translateX(-50%);
+}
 
-/*section contact STOP*/
+.header-content h2 {
+    text-align: center;
+    font-size: 5.4rem;
+}
 
+.header-row {
+    text-align: center;
+}
+.header-img {
+    padding: 40px 0;
+}
+.header-button {
+    background-color: rgba(0,0,0,0.8);
+    border: 0;
+    border-radius: 0;
+    padding: 10px 30px;
+}
+.header-button:hover {
+    background-color: rgba(255,255,255,0.6);
+}
+.left-button-div {
+    text-align: right;
+}
+.right-button-div {
+    text-align: left;
+}
+/*section ABOUT START*/
+.about-section {
+    background-image: url(../img/section-white-bg.png);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #000;
+    font-size: 0.8rem;
+}
+
+.cook-img {
+    padding-top: 25px;
+}
+.about-left-box {
+    
+}
+.about-section h3 {
+    color: #ffbf00;
+}
+/*section ABOUT STOP*/
+
+/*section INGREDIENTS START*/
+.ingredients-section {
+    background-image: url(../img/ingredients-background.jpg);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.ingredients-right-box {
+    background-color: rgba(0,0,0,0.6);
+    padding: 80px 20px;
+}
+.ing-sm-boxes {
+    margin-top: 45px;
+}
+/*section INGREDIENTS STOP*/
 
 /*footer START*/
 #footer{
