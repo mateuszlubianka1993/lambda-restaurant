@@ -13,6 +13,9 @@ h3 {
 .divider {
     padding: 25px 0;
 }
+.clear {
+    clear: both;
+}
 /*main-nav START*/
 #main-nav{
     position: fixed;
@@ -192,6 +195,42 @@ h3 {
     font-size: 1rem;
 }
 /*section REVIEWS STOP*/
+/*section RESERVATIONS START*/
+.reservations-section {
+    background-image: url(../img/section-white-bg.png);
+    padding-top: 80px;
+    padding-bottom: 70px;
+    color: #222;
+}
+.reservations-section h3 {
+    color: #ffbf00;
+}
+.reservations-p {
+    font-size: 0.8rem;
+}
+.reservations-box {
+    padding: 0 25px;
+}
+.form-box {
+    width: 50%;
+    float: left;
+    text-align: left;
+    color: #ffbf00;
+}
+.reservations-section form {
+    margin-top: 40px;
+}
+.form-box input {
+    width: 80%;
+}
+.reservation-button {
+    width: 45%;
+    border-radius: 0;
+    border: 0;
+    background-color: #ffbf00;
+    margin-top: 40px;
+}
+/*section RESERVATIONS STOP*/
 
 /*footer START*/
 #footer{
